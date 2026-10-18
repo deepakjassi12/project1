@@ -3,10 +3,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 1 - Case Study</title>
+  <title>Team Nova: Road to the Final | Pixel Clash 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Page 2: Feature Detail / Case Study -->
+
+  <!-- Shared header (same on both pages) -->
+  <header class="site-header">
+    <a href="index.html" class="logo">PIXEL CLASH</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="detail.html" class="active">Featured Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="detail-layout">
+
+    <section class="detail-hero">
+      <p class="eyebrow">Featured Team</p>
+      <h1>Team Nova: Road to the Final</h1>
+      <p class="lead-text">How a first-year student squad went from the last seed to the Grand Final of Pixel Clash 2026.</p>
+    </section>
+
+    <!-- Content: 3fr / 1fr grid -->
+    <section class="content-grid">
+
+      <article class="article-body">
+        <img src="images/team-nova.jpg" alt="Team Nova posing together in the esports arena" class="main-img">
+
+        <h2>The Challenge</h2>
+        <p>Team Nova entered Pixel Clash as the 16th and final seed. The five players had only been playing together for two months, and most of them had never competed at a live event. In their first scrim against a top team, they lost 13&ndash;2.</p>
+
+        <h2>The Strategy</h2>
+        <p>Instead of copying what the bigger teams were doing, Coach Dev had the team focus on just three maps and practice them every night. After each session they watched their own match replays (VODs) to find mistakes. They also kept calls short on Discord so everyone knew their role in every round.</p>
+
+        <div class="photo-row">
+          <img src="images/match-photo-1.jpg" alt="Two Team Nova players focused during a match">
+          <img src="images/match-photo-2.jpg" alt="A Team Nova player concentrating at her gaming station">
+        </div>
+
+        <h2>Results &amp; Key Outcomes</h2>
+        <ul class="results-list">
+          <li>Won 5 of 6 matches on the way to the Grand Final</li>
+          <li>Tournament MVP: Kai &ldquo;Nova&rdquo; Reyes</li>
+          <li>Finished 2nd place and won a $1,000 prize</li>
+        </ul>
+      </article>
+
+      <aside class="sidebar">
+        <h2>Team Details</h2>
+        <dl class="info-list">
+          <dt>Date</dt>
+          <dd>Nov 20 &ndash; 22, 2026</dd>
+          <dt>Category</dt>
+          <dd>5v5 Team Shooter</dd>
+          <dt>Game &amp; Tools</dt>
+          <dd>Rift Arena (PC), Discord, VOD review</dd>
+          <dt>Team</dt>
+          <dd>Kai, Maya, Leo, Priya, Sam + Coach Dev</dd>
+        </dl>
+        <a href="index.html#schedule" class="btn btn-purple">&larr; Back to Schedule</a>
+      </aside>
+
+    </section>
+
+  </main>
+
+  <!-- Shared footer (same on both pages) -->
+  <footer class="site-footer" id="contact">
+    <p>&copy; 2026 Pixel Clash Tournament</p>
+    <ul class="social-links">
+      <li><a href="#">Twitch</a></li>
+      <li><a href="#">Discord</a></li>
+      <li><a href="mailto:info@pixelclash.ca">Email</a></li>
+    </ul>
+  </footer>
+
 </body>
 </html>

@@ -3,10 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project 1 - Home</title>
+  <title>Pixel Clash 2026 | Student Esports Tournament</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <!-- Page 1: Main Showcase Hub -->
+
+  <!-- Shared header (same on both pages) -->
+  <header class="site-header">
+    <a href="index.html" class="logo">PIXEL CLASH</a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="detail.html">Featured Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero: 2fr / 1fr grid -->
+    <section class="hero-grid">
+
+      <div class="spotlight">
+        <p class="eyebrow">Student Esports Tournament</p>
+        <h1>Enter the Arena</h1>
+        <p class="subtitle">16 teams. 3 days. One trophy. Watch the best student players battle it out in Rift Arena, live in Mississauga.</p>
+        <a href="#schedule" class="btn btn-green">View Schedule</a>
+      </div>
+
+      <aside class="hero-info">
+        <h2>Event Info</h2>
+        <dl class="info-list">
+          <dt>Dates</dt>
+          <dd>Nov 20 &ndash; 22, 2026</dd>
+          <dt>Venue</dt>
+          <dd>Lakeview Gaming Hall</dd>
+          <dt>Status</dt>
+          <dd>Registration open</dd>
+        </dl>
+        <h3>Quick Links</h3>
+        <ul class="quick-links">
+          <li><a href="#schedule">&rarr; Match Schedule</a></li>
+          <li><a href="detail.html">&rarr; Featured Team</a></li>
+          <li><a href="#schedule">&rarr; Rules &amp; Prizes</a></li>
+          <li><a href="#contact">&rarr; Contact Us</a></li>
+        </ul>
+      </aside>
+
+    </section>
+
+    <!-- Gallery: auto-fit grid of cards -->
+    <section class="schedule" id="schedule">
+      <h2 class="section-title">Tournament Schedule</h2>
+
+      <div class="cards-gallery">
+
+        <article class="card">
+          <img src="images/opening-ceremony.jpg" alt="Rows of gaming PCs with glowing lights in an esports arena">
+          <div class="card-body">
+            <p class="card-date">Nov 20 &middot; 6 PM</p>
+            <h3>Opening Ceremony</h3>
+            <p>Meet all 16 teams, see the bracket reveal and grab your seat before the first match.</p>
+            <a href="#schedule" class="btn btn-purple">Details</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/group-stage.jpg" alt="Players focused on their screens during a competitive match">
+          <div class="card-body">
+            <p class="card-date">Nov 21 &middot; 12 PM</p>
+            <h3>Group Stage</h3>
+            <p>Four groups, round-robin matches. Only the top two teams in each group move on.</p>
+            <a href="#schedule" class="btn btn-purple">Details</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/featured-match.jpg" alt="A team of gamers competing together in a tournament">
+          <div class="card-body">
+            <p class="card-date">Nov 21 &middot; 7 PM</p>
+            <h3>Featured Team Match</h3>
+            <p>Underdogs Team Nova take on last year's champions in the match everyone is talking about.</p>
+            <a href="detail.html" class="btn btn-purple">Meet the Team</a>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="images/grand-final.jpg" alt="Gamers competing on stage at the tournament final">
+          <div class="card-body">
+            <p class="card-date">Nov 22 &middot; 5 PM</p>
+            <h3>Grand Final</h3>
+            <p>The last two teams play a best-of-five for the Pixel Clash trophy and a $2,000 prize.</p>
+            <a href="#schedule" class="btn btn-purple">Details</a>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Shared footer (same on both pages) -->
+  <footer class="site-footer" id="contact">
+    <p>&copy; 2026 Pixel Clash Tournament</p>
+    <ul class="social-links">
+      <li><a href="#">Twitch</a></li>
+      <li><a href="#">Discord</a></li>
+      <li><a href="mailto:info@pixelclash.ca">Email</a></li>
+    </ul>
+  </footer>
+
 </body>
 </html>
