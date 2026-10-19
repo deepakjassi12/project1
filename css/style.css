@@ -1,11 +1,3 @@
-/* ==========================================
-   CCT360 Project 1 - Pixel Clash 2026
-   Shared stylesheet for index.html and detail.html
-   Mobile-first: one column by default,
-   grids split into columns at 768px and up.
-   ========================================== */
-
-/* ---------- Universal reset ---------- */
 * {
   margin: 0;
   padding: 0;
@@ -40,7 +32,6 @@ h3 {
   line-height: 1.2;
 }
 
-/* ---------- Buttons ---------- */
 .btn {
   display: inline-block;
   padding: 10px 20px;
@@ -67,7 +58,6 @@ h3 {
   background-color: #5B21B6;
 }
 
-/* Small green label above headings */
 .eyebrow {
   font-size: 13px;
   font-weight: 600;
@@ -76,7 +66,6 @@ h3 {
   color: #16A34A;
 }
 
-/* ---------- Header (Flexbox) ---------- */
 .site-header {
   display: flex;
   flex-direction: column;
@@ -108,7 +97,6 @@ h3 {
   border-bottom: 2px solid #4ADE80;
 }
 
-/* ---------- Page 1: Hero (CSS Grid) ---------- */
 .hero-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -158,7 +146,6 @@ h3 {
   border-top: 1px solid #DDD6FE;
 }
 
-/* Label / value list used on both pages */
 .info-list dt {
   font-size: 12px;
   font-weight: 600;
@@ -187,7 +174,6 @@ h3 {
   color: #2E1065;
 }
 
-/* ---------- Page 1: Cards gallery (CSS Grid) ---------- */
 .schedule {
   padding: 24px 16px 48px;
 }
@@ -203,7 +189,6 @@ h3 {
   gap: 24px;
 }
 
-/* Card interior (Flexbox column) */
 .card {
   display: flex;
   flex-direction: column;
@@ -241,13 +226,11 @@ h3 {
   color: #666666;
 }
 
-/* Pushes every button to the bottom of its card */
 .card .btn {
   margin-top: auto;
   align-self: flex-start;
 }
 
-/* ---------- Page 2: Detail hero ---------- */
 .detail-hero {
   display: flex;
   flex-direction: column;
@@ -264,7 +247,6 @@ h3 {
   color: #666666;
 }
 
-/* ---------- Page 2: Content + sidebar (CSS Grid) ---------- */
 .content-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -322,7 +304,6 @@ h3 {
   font-size: 20px;
 }
 
-/* ---------- Footer (Flexbox) ---------- */
 .site-footer {
   display: flex;
   flex-direction: column;
@@ -343,10 +324,6 @@ h3 {
   color: #4ADE80;
 }
 
-/* ==========================================
-   Tablet / Desktop (768px and up)
-   Multi-column grids turn on here.
-   ========================================== */
 @media (min-width: 768px) {
 
   .site-header {
